@@ -196,9 +196,9 @@ color: white;
     .crypto-details, .buyer-info {
         font-size: 14px;
     }
-    .show-container{
+     .show-container{
         width: 100%;
-        height: 60%;
+        height: 50%;
         display: flex;
         justify-content: space-evenly;
     }
@@ -234,5 +234,13 @@ color: white;
 }
 @keyframes ani {
   
+}
+@media (max-width:100px){
+    .show-container{
+        width: 100%;
+        height: 40%;
+        display: flex;
+        justify-content: space-evenly;
+    }
 }
 
